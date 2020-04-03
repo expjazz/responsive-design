@@ -118,6 +118,7 @@ body a {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  height: 100%;
 }
 
 .main-headline .main-left .top {
@@ -164,13 +165,13 @@ body a {
   background: linear-gradient(
       to bottom right,
       rgba(204, 0, 153, 0.068),
-      rgba(255, 67, 34, 0.664) 85%
-    ),
+      rgba(255, 67, 34, 0.664) 85%),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Screenshot-2020-02-06-at-18.13.24-796x331.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
+  height: 100%;
 }
 
 .main-headline .main-right-2 {
@@ -185,6 +186,7 @@ body a {
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
+  height: 100%;
 }
 
 .main-headline .main-right .content {
@@ -262,6 +264,16 @@ body a {
   .nav-bar-md {
     display: none;
   }
+  .main-headline{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-headline .small{
+    margin: 4px;
+  }
+  .main-headline .small .bottom{
+    font-size: 30px;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -277,5 +289,18 @@ body a {
   }
   .nav-bar-md .nav-bottom {
     padding-left: 128px;
+  }
+  .main-headline {
+    height: 200px;
+  }
+  .main-headline .main-left{
+    justify-content: flex-end;
+  }
+  .main-headline .main-left .bottom .title{
+    font-size: 40px;
+
+  }
+  .main-headline .main-left .top{
+    display: none;
   }
 }
