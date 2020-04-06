@@ -398,6 +398,7 @@ body a {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 25px;
+    margin-top: 70px;
 }
 
 .menu .item .title {
@@ -409,6 +410,24 @@ body a {
 
 .menu .item .img {
     background: linear-gradient( to bottom right, rgba(204, 0, 153, 0.068), rgba(255, 67, 34, 0.664) 85%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Zoom-mess-368x276.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    height: 265px;
+}
+
+.menu .item-2 .img {
+    background: linear-gradient( to bottom right, rgba(204, 0, 153, 0.068), rgba(255, 67, 34, 0.664) 85%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Dutch-Dutch-8c-Feat-1-of-1-1-368x276.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    height: 265px;
+}
+
+.menu .item-3 .img {
+    background: linear-gradient( to bottom right, rgba(204, 0, 153, 0.068), rgba(255, 67, 34, 0.664) 85%), url(https://i.ytimg.com/vi/zZbDg24dfN0/hqdefault.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -614,7 +633,7 @@ body a {
     color: red;
 }
 
-. @media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .nav-bar-sm {
         background: #fcfcfc;
         display: block;
