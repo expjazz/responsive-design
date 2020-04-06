@@ -291,7 +291,10 @@ body a {
 
 .latest-funding-vids {
     display: flex;
-    flex-basis: 25%;
+    width: 800px;
+    /* flex-basis: 25%; */
+    margin-top: 25px;
+    justify-content: space-between;
 }
 
 .latest-funding-vids .item {
@@ -306,8 +309,8 @@ body a {
 }
 
 .latest-funding-vids .item .top img {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     margin-left: 15px;
     margin-top: 7px;
     grid-area: 1/1/3/2;
@@ -335,6 +338,39 @@ body a {
     grid-area: 2/1/3/3;
     background: #ffebe7;
     z-index: -2;
+}
+
+.latest-funding-vids .item .middle {
+    background: #fffaf8;
+    border-bottom: 1px solid #ffcdc2;
+}
+
+.latest-funding-vids .item .middle .middle-up {
+    display: flex;
+    padding: 15px 0 7px 10px;
+}
+
+.latest-funding-vids .item .middle .middle-up h6 {
+    padding-left: 8px;
+}
+
+.latest-funding-vids .item .middle .middle-down {
+    display: flex;
+    padding: 8px 0 15px 10px;
+}
+
+.latest-funding-vids .item .middle .middle-down h6 {
+    padding-left: 8px;
+}
+
+.latest-funding-vids .item .bottom {
+    width: 260px;
+    background: #fffaf8;
+    font-size: 13px;
+}
+
+.latest-funding-vids .item .bottom p {
+    padding: 7px 0 10px 7px;
 }
 
 @media only screen and (max-width: 767px) {
