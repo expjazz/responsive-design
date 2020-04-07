@@ -2,7 +2,7 @@
 
 > We made a clone of The Next Web news website as an exercise from Microverse to apply some mediaqueries principles.
 
-![screenshot](./img/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 ## Built With
 
@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/praz99/designTeardown/workingBranch/index.html)
+[Live Demo Link](https://raw.githack.com/expjazz/responsive-design/thenextweb/index.html)
 
 ## Getting Started
 
