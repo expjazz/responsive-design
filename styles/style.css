@@ -508,7 +508,77 @@ body a {
       rgba(204, 0, 153, 0.068),
       rgba(255, 67, 34, 0.664) 85%
     ),
-    url(https://i.ytimg.com/vi/zZbDg24dfN0/hqdefault.jpg);
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/smarttoilet-368x276.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  height: 265px;
+}
+
+.menu .item-4 .img {
+  background: linear-gradient(
+      to bottom right,
+      rgba(204, 0, 153, 0.068),
+      rgba(255, 67, 34, 0.664) 85%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule-368x276.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  height: 265px;
+}
+
+.menu .item-5 .img {
+  background: linear-gradient(
+      to bottom right,
+      rgba(204, 0, 153, 0.068),
+      rgba(255, 67, 34, 0.664) 85%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/corona-brands-368x276.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  height: 265px;
+}
+
+.menu .item-6 .img {
+  background: linear-gradient(
+      to bottom right,
+      rgba(204, 0, 153, 0.068),
+      rgba(255, 67, 34, 0.664) 85%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/ezgif.com-webp-to-jpg-4-796x403.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  height: 265px;
+}
+
+.menu .item-7 .img {
+  background: linear-gradient(
+      to bottom right,
+      rgba(204, 0, 153, 0.068),
+      rgba(255, 67, 34, 0.664) 85%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  height: 265px;
+}
+
+.menu .item-8 .img {
+  background: linear-gradient(
+      to bottom right,
+      rgba(204, 0, 153, 0.068),
+      rgba(255, 67, 34, 0.664) 85%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Person-using-laptop-on-plane-Wi-Fi-hed-368x276.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -545,8 +615,64 @@ body a {
   margin-left: 7px;
 }
 
-.menu .item .subtitle .right .img {
+.menu .item-1 .subtitle .right .img {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/hbo-free-coronavirus.jpg");
+  height: 85px;
+  width: 85px;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu .item-2 .subtitle .right .img {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Pixel-4-Camera-1-of-1.jpg");
+  height: 85px;
+  width: 85px;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu .item-3 .subtitle .right .img {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Screenshot-2020-02-06-at-18.13.24.png");
+  height: 85px;
+  width: 85px;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu .item-4 .subtitle .right .img {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Getty-Photo-Challenge.jpg");
+  height: 85px;
+  width: 85px;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu .item-5 .subtitle .right .img {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/question-unknown.png");
+  height: 85px;
+  width: 85px;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu .item-6 .subtitle .right .img {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/amazon-competition.png");
+  height: 85px;
+  width: 85px;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu .item-7 .subtitle .right .img {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced.png");
+  height: 85px;
+  width: 85px;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu .item-8 .subtitle .right .img {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/header-image-A-Cats-butthole-cut-‘trailer’-is-out-—-an-analysis-of-its-alternative-reality.png");
   height: 85px;
   width: 85px;
   background-size: cover;
